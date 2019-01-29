@@ -1,0 +1,39 @@
+Metrics/LineLength:
+  Max: 120
+
+Style/AndOr:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: true
+  Exclude:
+    - "config/environment.rb"
+    - "spec/support/environment_helper.rb"
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
+Style/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines
+
+Style/LeadingCommentSpace:
+  Exclude:
+    - Gemfile
+
+Style/WordArray:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Rails/TimeZone:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 120
